@@ -34,11 +34,11 @@ public class SkillBuilder1 {
 
         // TODO: Calculate and output the wall's area
         wallArea = wallHeight * wallWidth;
-        System.out.printf("Wall Area: %.0f square feet\n" + wallArea);
+        System.out.printf("Wall Area: %.0f square feet\n" , wallArea);
         gallonsPaintNeeded = wallArea/ squareFeetPerGallons;
-        System.out.printf("Paint needed; %.0f gallons\n"+ gallonsPaintNeeded);
+        System.out.printf("Paint needed: %.2f gallons\n", gallonsPaintNeeded);
         cansNeeded = (int)(gallonsPaintNeeded /gallonsPerCan);
-        System.out.printf("Cans needed: %d 1 can\n",cansNeeded);
+        System.out.printf("Cans needed:" , cansNeeded ,"can(s)\n");
 
 
         // TODO: Calculate and output the amount of paint in gallons needed to paint the wall
